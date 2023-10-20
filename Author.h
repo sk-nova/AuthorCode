@@ -4,6 +4,7 @@
 #include<string>
 using namespace std;
 
+// Author class
 class Author
 {
 	private:
