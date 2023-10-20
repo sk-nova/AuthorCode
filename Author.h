@@ -4,15 +4,16 @@
 #include<string>
 using namespace std;
 
+
 // Author class
 class Author
 {
 	private:
-	int auth_id;
-	string authorName;
-	string book_name;
-	int noOfBkPublished;
-	double totalSaleBooks;
+		int auth_id;
+		string authorName;
+		string book_name;
+		int noOfBkPublished;
+		double totalSaleBooks;
 	
 	public:
 	Author(){}
