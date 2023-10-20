@@ -21,6 +21,7 @@ double getTotalSaleBooks(){
 	return this->totalSaleBooks;
 }
 
+
 //setters
 
 void Author::setAuthId(int auth_id){
@@ -40,8 +41,9 @@ void Auhtor::setNoOfBkPublished(int bkPub){
 	this->noOfBkPublished=bkPub;
 }
 
-void Author::display()(
+void Author::display(){
 	cout << "\nAuthor ID : " << auth_id << endl;
 	cout << "\nAuthor Name : " << authorName << endl;
 	cout <<  "\nBook Name : " << book_name << endl;
 	cout << "\nNo. of Book Published : " << noOfBkPublished << endl;
+}
